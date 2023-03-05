@@ -1,3 +1,3 @@
-#kokoa clone
+#vanilla js
 
-HTML and CSS are so much fun!
+my first javascript website
