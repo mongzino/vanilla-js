@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <form class="login-form hidden">
+        <input required maxlength="16" type="text" placeholder="user name" />
+        <button>submit</button>
+    </form>
+    <h1 class="hidden"></h1>
+    <h2 class="clock">00:00:00</h2>
+    <div class="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <button class="todo-open"> 🔽 </button>
+    <div id="todo-box" class ="hidden">
+        <form class="todo-form">
+            <input class="todo-input" placeholder="add to do list" required>
+        </form>
+        <ul class="todo-list" >
+        </ul>
+    </div>
+    <div class="quotes">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>
